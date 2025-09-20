@@ -16,57 +16,76 @@ const BSform = () => {
         </h2>
       </div>
       <div>
-        <form style={{ border: '2px solid black', padding: '20px', borderRadius: '5px' }}>
-          <div className="mb-3">
-            <label htmlFor="exampleInputEmail1" className="form-label">
-              Email address
+        <form className="border border-dark p-4 rounded" >
+          {/* Email Row */}
+          <div className="row mb-3">
+            <label htmlFor="exampleInputEmail1" className="col-sm-3 col-form-label">
+              Email Address
             </label>
-            <input
-              type="email"
-              className="form-control"
-              id="exampleInputEmail1"
-              aria-describedby="emailHelp"
-            />
-            <div id="emailHelp" className="form-text">
-              We'll never share your email with anyone else.
+            <div className="col-sm-9">
+              <input
+                type="email"
+                className="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+              />
+              <div id="emailHelp" className="form-text">
+                We'll never share your email with anyone else.
+              </div>
             </div>
           </div>
-          <div className="mb-3">
-            <label htmlFor="exampleInputPassword1" className="form-label">
+
+          {/* Password Row */}
+          <div className="row mb-3">
+            <label htmlFor="exampleInputPassword1" className="col-sm-3 col-form-label">
               Password
             </label>
-            <input
-              type="password"
-              className="form-control"
-              id="exampleInputPassword1"
-            />
+            <div className="col-sm-9">
+              <input
+                type="password"
+                className="form-control"
+                id="exampleInputPassword1"
+              />
+            </div>
           </div>
-          <div className="mb-3 form-check">
-            <label htmlFor="exampleCheck1">
-              Gender
-            </label> <br /> <br />
-            <input
-              type="checkbox"
-              className="form-check-input"
-              id="exampleCheck1"
-            />
-            <label className="form-check-label" htmlFor="exampleCheck1">
-              Male
-            </label>
+
+          {/* Gender Row */}
+          <div className="row mb-3">
+            <label className="col-sm-3 col-form-label">Gender</label>
+            <div className="col-sm-9">
+              <div className="form-check form-check-inline">
+                <input
+                  type="radio"
+                  className="form-check-input"
+                  name="gender"
+                  id="male"
+                />
+                <label className="form-check-label" htmlFor="male">
+                  Male
+                </label>
+              </div>
+              <div className="form-check form-check-inline">
+                <input
+                  type="radio"
+                  className="form-check-input"
+                  name="gender"
+                  id="female"
+                />
+                <label className="form-check-label" htmlFor="female">
+                  Female
+                </label>
+              </div>
+            </div>
           </div>
-          <div className="mb-3 form-check">
-            <input
-              type="checkbox"
-              className="form-check-input"
-              id="exampleCheck1"
-            />
-            <label className="form-check-label" htmlFor="exampleCheck1">
-              Female
-            </label>
+
+          {/* Submit Button Row */}
+          <div className="row">
+            <div className="offset-sm-3 col-sm-9">
+              <button type="submit" className="btn btn-primary">
+                Submit
+              </button>
+            </div>
           </div>
-          <button type="submit" className="btn btn-primary">
-            Submit
-          </button>
         </form>
       </div>
     </div>
