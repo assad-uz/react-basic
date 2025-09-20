@@ -28,6 +28,7 @@ const Internalcss = () => {
             color: "white",
             textAlign: "center",
             padding: "10px",
+            marginTop:"10px"
           }}
         >
           Internal CSS
