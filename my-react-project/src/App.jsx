@@ -1,6 +1,7 @@
 import React from 'react';
 import BStable from './BStable';
 import BSform from './BSform';
+import Internalcss from './Internalcss';
 
 const App = () => {
   const a = "Shaon";
@@ -18,6 +19,9 @@ const App = () => {
       </div>
       <div>
         <BSform/>
+      </div>
+      <div>
+        <Internalcss/>
       </div>
     </div>
   );
