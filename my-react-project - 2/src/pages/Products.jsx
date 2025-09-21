@@ -11,6 +11,9 @@ const Products = () => {
                 <li>
                     <Link to="men">Men</Link>
                 </li>
+                <li>
+                    <Link to="women">Women</Link>
+                </li>
             </ul>
             <Outlet/>
         </div>
