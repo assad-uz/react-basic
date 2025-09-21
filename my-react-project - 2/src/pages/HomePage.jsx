@@ -6,7 +6,7 @@ const HomePage = () => {
         <div>
             <div>
                 <Nav/>
-                <h1>This is Home Page</h1>
+                <h1>This is Hotel Management System</h1>
             </div>
         </div>
     );
