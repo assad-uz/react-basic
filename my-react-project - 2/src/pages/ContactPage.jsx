@@ -5,7 +5,7 @@ const ContactPage = () => {
     return (
         <div>
             <Nav/>
-            <h1>This is Contact Page</h1>
+            <h1>This is My Contact Page</h1>
         </div>
     );
 };
