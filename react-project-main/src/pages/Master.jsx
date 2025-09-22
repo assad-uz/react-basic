@@ -3,7 +3,7 @@ import React from 'react';
 const Master = () => {
     return (
         <div>
-            <!-- Site wrapper -->
+            {/* <!-- Site wrapper --> */}
 <div className="wrapper">
   {/* Navbar */}
   <nav className="main-header navbar navbar-expand navbar-white navbar-light">
@@ -858,6 +858,7 @@ const Master = () => {
     {/* /.content */}
   </div>
   {/* /.content-wrapper */}
+</div>
 </div>
 
     );
