@@ -38,7 +38,7 @@ const Master = () => {
           <section className="content">
             {/* Default box */}
             <div className="card">
-              {/* <div className="card-header">
+              <div className="card-header">
                 <h3 className="card-title">Title</h3>
                 <div className="card-tools">
                   <button
@@ -58,7 +58,7 @@ const Master = () => {
                     <i className="fas fa-times" />
                   </button>
                 </div>
-              </div> */}
+              </div>
               <div className="card-body">
                 {/* Insert Your content here */}
 
